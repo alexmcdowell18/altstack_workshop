@@ -1,8 +1,50 @@
+body{
+  background-color: rgb(224, 234, 250);
+}
 
 #hello{
   display: none;
 }
 
+#fake-nav{
+  background: linear-gradient(rgb(232, 230, 232), rgb(210, 208, 210));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+ #login-text{
+   padding-right: 5px;
+ }
+
+/*nav {
+  background: linear-gradient(rgb(232, 230, 232), rgb(210, 208, 210));
+}*/
+/*
+nav a{
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}*/
+
+#login-text {
+  font-weight: bold;
+}
+
+/*.list-group a{
+  background-color: rgb(224, 234, 250);
+}
+
+.list-group a:hover{
+  background-color: rgb(210, 218, 255);
+}
+
+.list-group a:active{
+  background-color: rgb(210, 218, 255);
+}*/
+/*
 #fake-nav {
   display: flex;
   flex-flow: row;
@@ -13,14 +55,7 @@
   text-align: center;
   margin: 10px;
   color: black;
-}
-
-#login-text {
-  display: flex;
-  margin: 10px;
-  padding: 20px;
-  color: black;
-}
+}*/
 
 
 .user-modal-container * {
