@@ -71,9 +71,7 @@ var someVue = new Vue({
       let arr = [];
       $.get("https://hidden-retreat-66994.herokuapp.com/AllEvents", (data) => {
         console.log(data);
-        events = data.replace(/([\'])/g,"\"");
-        console.log(events);
-        arr = JSON.parse(events);
+        arr = JSON.parse(data);
         this.events =  arr;
       });
     },
